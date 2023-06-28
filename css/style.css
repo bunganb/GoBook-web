@@ -1,0 +1,229 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;&family=Roboto:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Secular+One&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+/* Navbar */
+nav {
+  position: absolute;
+  width: 100%;
+  height: 60px;
+  background: #ffffff;
+  box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 20px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+}
+
+.header {
+  padding: 25px;
+  width: 100%;
+  height: 662px;
+  background: linear-gradient(222.55deg, #ffc93c 3.04%, rgba(234, 210, 147, 0.442708) 51.5%, rgba(217, 217, 217, 0) 89.99%);
+}
+.quote {
+  margin-top: 75px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 700;
+}
+.quote img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+/* Navbar end*/
+/* Category */
+.category {
+  margin-top: 60px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+}
+.genre-group {
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+}
+.genre-item {
+  text-align: center;
+}
+.category .btn {
+  width: 160px;
+  background: #ffffff;
+  border-radius: 5px;
+  font-weight: 500;
+  color: #ffc93c;
+  border: 1px solid #ffc93c;
+}
+.category .btn:hover {
+  border-radius: 5px;
+  border: 1px solid #ffc93c;
+  color: black;
+}
+.best-sell .card {
+  border: none;
+  background-color: #f5f5f5;
+  border-radius: 15px;
+  box-shadow: 5px 5px 4px rgba(0, 0, 0, 0.25);
+  padding-top: 23px;
+  padding-bottom: 23px;
+}
+.best-sell a {
+  text-decoration: none;
+}
+.best-sell .row {
+  margin-top: 30px;
+}
+.best-sell h5 {
+  color: black;
+}
+.product-img img {
+  width: 70%;
+  height: 250px;
+  object-fit: cover;
+}
+.prize {
+  width: 150px;
+  height: 40px;
+  box-shadow: 3px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+  font-family: 'Poppins', sans-serif;
+  margin-left: 63px;
+}
+.prize p {
+  margin-top: 8px;
+}
+/* Category end*/
+/* Banner */
+.banner {
+  margin-top: 45px;
+  height: 400px;
+  background: #ffc93c;
+}
+.banner h2 {
+  font-family: 'Poppins', sans-serif;
+}
+.banner-quote {
+  margin-top: 100px;
+}
+.banner-quote .btn-banner {
+  text-decoration: none;
+  font-family: 'Poppins', sans-serif;
+  color: #ffffff;
+  background: #b73e3e;
+  font-weight: 400;
+  margin-top: 30px;
+  padding: 8px;
+  border-radius: 5px;
+  width: 150px;
+}
+/* Banner end*/
+/* ulasan */
+.ulasan img {
+  border-radius: 50%;
+}
+.ulasan span {
+  font-family: 'Secular One', sans-serif;
+}
+/* ulasan end*/
+/* Footer */
+
+.footer {
+  height: 300px;
+  background: #ffc93c;
+  padding: 20px;
+}
+.footer ul {
+  list-style: none;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+  line-height: 30px;
+}
+.footer li i {
+  margin-right: 8px;
+}
+.footer h3 {
+  margin-left: 30px;
+}
+.footer .row {
+  margin-top: 20px;
+}
+
+/* Footer end */
+.copyright {
+  padding: 5px;
+}
+.copyright a {
+  color: inherit;
+}
+.copyright p {
+  margin-left: 370px;
+}
+/* detail content */
+.detail h2,
+h4 {
+  font-family: 'Poppins', sans-serif;
+}
+.detail .status {
+  font-family: 'Poppins', sans-serif;
+}
+.detail .desc p {
+  font-family: 'Roboto', sans-serif;
+}
+.detail button {
+  background: #ffc93c;
+  font-family: 'Poppins', sans-serif;
+}
+/* detail content end*/
+/* Login Page */
+.login-page {
+  background: #ffc93c;
+}
+.login-page .kiri {
+  background-image: url(../img/login.jpg);
+  width: 50%;
+  height: 640px;
+  background-size: cover;
+}
+
+.login-page .form {
+  height: 380px;
+  width: 65%;
+}
+.login-page .btn {
+  width: 500px;
+  background-color: #073332;
+  color: white;
+  font-family: 'Poppins', sans-serif;
+  height: 45px;
+}
+.login-page .btn:hover {
+  border: 1px solid #073332;
+  color: #073332;
+}
+.login-page .form-card {
+  box-shadow: 12px 12px 19px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+  border: none;
+}
+.form .judul {
+  font-family: 'Poppins', sans-serif;
+  color: #073332;
+  font-weight: 700;
+}
+.form p {
+  /* font-family: 'Poppins', sans-serif; */
+  font-weight: 400;
+}
+/* Login Page end*/
+/* logout button */
+.btnLogout {
+  background: #fdfdfd;
+  border: 1px solid grey;
+  box-shadow: 3px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+}
+/* logout button end */
