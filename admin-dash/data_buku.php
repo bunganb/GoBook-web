@@ -370,7 +370,7 @@ if ($akses != 'admin') {
               </div>
               <div class="col-md-4">
                 <div class="mb-3">
-                  <label for="stok" class="form-label">Stok</label>
+                  <label for="stok" class="form-label">Stock</label>
                   <input type="number" class="form-control" id="stok" name="stok_buku" value="<?= $record['stok'] ?>" required>
                 </div>
                 <div class="mb-3">
